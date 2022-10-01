@@ -43,3 +43,29 @@
   margin: 0 auto;
   padding: 5px 30px;
 }
+
+.magic__div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  background-color: aqua;
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  padding: 10px;
+}
+
+.magic__div--hidden {
+  display: none;
+}
+
+.magic__text {
+  margin-right: 5px;
+}
+
+.magic__button {
+  height: fit-content;
+}
